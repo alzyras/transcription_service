@@ -1,0 +1,1 @@
+python -m uvicorn transcription_service.transcribe:app --reload
