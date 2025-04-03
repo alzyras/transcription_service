@@ -43,7 +43,7 @@ def transcribe_audio(file_path, words_per_sentence=5):
     else:
         raise Exception(f"Failed to fetch subtitles: {response.text}")
 ```
-By sending an AudioSegment
+By sending an AudioSegment:
 ```python
 def send_audiosegment_to_transcriber(audio_segment: AudioSegment, words_per_sentence: int = 5):
     """Send an AudioSegment object to the transcription API and get subtitles."""
