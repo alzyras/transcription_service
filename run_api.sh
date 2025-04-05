@@ -1,1 +1,1 @@
-python -m uvicorn transcription_service.transcribe:app --reload
+uv run python -m uvicorn transcription_service.transcribe:app --reload
